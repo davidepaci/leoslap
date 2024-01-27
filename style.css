@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#slider-container {
+    width: 640px; /* Set this to the width of your images */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#eelImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
