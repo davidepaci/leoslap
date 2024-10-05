@@ -1,6 +1,6 @@
 const totalFrames = 62; // Total number of frames
 const eelImage = document.getElementById('eelImage');
-const container = document.getElementById('slider-container');
+const container = document.getElementById('page-container');
 
 function updateFrame(e) {
     // Determine if it's a touch event
