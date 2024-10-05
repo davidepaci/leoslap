@@ -24,3 +24,9 @@ function updateFrame(e) {
 // Handle both mouse and touch events
 container.addEventListener('mousemove', updateFrame);
 container.addEventListener('touchmove', updateFrame);
+
+// preload all images
+for (let i = 1; i <= totalFrames; i++) {
+    const img = new Image();
+    img.src = `images/000${i}.jpg`;
+}
